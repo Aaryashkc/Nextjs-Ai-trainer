@@ -1,9 +1,9 @@
 import React from 'react'
 
-const page = () => {
+const GenaratePage = () => {
   return (
-    <div>page</div>
+    <div>GenaratePage</div>
   )
 }
 
-export default page
+export default GenaratePage
