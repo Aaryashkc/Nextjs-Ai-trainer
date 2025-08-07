@@ -2,6 +2,7 @@
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
+@custom-variant light (&:is(.light *));
 
 @theme inline {
   --color-background: var(--background);
@@ -49,6 +50,7 @@
 
   /* Cyberpunk Theme Colors */
   --cyber-black: #000000;
+  --cyber-light:#f2f2f2;
   --cyber-dark: #0a0c14;
   --cyber-blue-bright: #18cef2;
   --cyber-blue: #1089bd;
@@ -57,8 +59,8 @@
   --cyber-accent: #0ff4;
 
   /* Background */
-  --background: var(--cyber-black);
-  --foreground: #f2f2f2;
+  --background: var(--cyber-light);
+  --foreground: var(--cyber-dark);
 
   /* Card and popover elements */
   --card: #111827;
